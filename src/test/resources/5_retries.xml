@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test suite" parallel="tests">
+    <test name="Examples of how allure processes and shows retries">
+        <classes>
+            <class name="com.noname.retry.ExampleWithRetry"/>
+        </classes>
+    </test>
+</suite>

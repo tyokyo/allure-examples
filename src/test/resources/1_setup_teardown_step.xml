@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test suite">
+    <test name="Allure examples to show the following: setUp, tearDown, with/without @Step, nested @Steps, different ways of describing @Step" parallel="classes">
+        <classes>
+            <class name="com.noname.steps.ExampleWithoutSteps"/>
+            <class name="com.noname.steps.ExampleWithStepsWithoutSetUp"/>
+            <class name="com.noname.steps.ExampleWithStepsAndSetUp"/>
+            <class name="com.noname.steps.ExampleWithStepsAndMultipleSetUps"/>
+        </classes>
+    </test>
+</suite>

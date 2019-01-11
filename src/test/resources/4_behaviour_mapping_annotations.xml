@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test suite" parallel="tests">
+    <test name="Examples of using allure annotations for behaviour mapping" parallel="classes">
+        <classes>
+            <class name="com.noname.behaviour.AuthenticationTest"/>
+            <class name="com.noname.behaviour.CheckoutTest"/>
+        </classes>
+    </test>
+</suite>

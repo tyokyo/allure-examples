@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test suite" parallel="tests">
+    <test name="Examples of using allure annotations and linking something" parallel="classes">
+        <classes>
+            <class name="com.noname.annotations.ExampleWithAnnotations"/>
+            <class name="com.noname.annotations.ExampleWithLink"/>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Allure examples">
+    <suite-files>
+        <suite-file path="1_setup_teardown_step.xml"/>
+        <suite-file path="2_attachments.xml"/>
+        <suite-file path="3_links_and_common_annotations.xml"/>
+        <suite-file path="4_behaviour_mapping_annotations.xml"/>
+        <suite-file path="5_retries.xml"/>
+    </suite-files>
+</suite>

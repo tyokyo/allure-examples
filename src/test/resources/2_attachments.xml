@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test suite" parallel="tests">
+    <test name="Examples with attachments">
+        <classes>
+            <class name="com.noname.attachment.ExampleWithAttachment"/>
+        </classes>
+    </test>
+    <test name="Examples with attachments inside listener">
+        <classes>
+            <class name="com.noname.attachment.ExampleWithAttachmentAndListener"/>
+        </classes>
+    </test>
+</suite>
